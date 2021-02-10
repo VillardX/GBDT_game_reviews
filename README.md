@@ -14,4 +14,5 @@
 4. 改用lightgbm框架建立GBDT模型，将其与lstm部分代码整合，形成自用tool包。
 5. 分别使用GBDT模型与lstm模型在相同的交叉验证集合上进行训练验证，横向对比结果。
 6. 以训练集规模为自变量，模型在训练集和测试集上的表现为应变量，研究不同数据量对模型结果的影响。
-详见链接:[link]()
+
+详见链接:[link](https://github.com/VillardX/GBDT_game_reviews/tree/main/lstm_vs_lgb)

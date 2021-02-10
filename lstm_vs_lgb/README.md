@@ -16,6 +16,12 @@
 与
 [数据包2](https://github.com/VillardX/GBDT_game_reviews/blob/main/lstm_vs_lgb/cv_data.part2.rar)
 。得到本次实验所需要用到的原始数据cv_data.txt
-2. 建立自用工具[mytool](https://github.com/VillardX/GBDT_game_reviews/blob/main/lstm_vs_lgb/mytool.py)包，包中含有tf_idf向量化，id2word词语编码、lgb模型初始化、lstm模型初始化等功能。
-3. 将解压所得数据文件、mytool包以及[停用词表](https://github.com/VillardX/GBDT_game_reviews/blob/main/lstm_vs_lgb/stopwords.txt)置于同一文件夹下，运行[cv_output_model.py](https://github.com/VillardX/GBDT_game_reviews/blob/main/lstm_vs_lgb/cv_output_model.py)。运行该文件可以分别训练lgb与lstm的十折交叉验证模型，最后在当前文件夹输出'lgbX.txt'与'lstmX.h5'字样的文件，即为训练的模型。
-
+2. 建立自用工具
+[mytool](https://github.com/VillardX/GBDT_game_reviews/blob/main/lstm_vs_lgb/mytool.py)
+包，包中含有tf_idf向量化，id2word词语编码、lgb模型初始化、lstm模型初始化等功能。
+3. 将解压所得数据文件、mytool包以及
+[停用词表](https://github.com/VillardX/GBDT_game_reviews/blob/main/lstm_vs_lgb/stopwords.txt)
+置于同一文件夹下，运行
+[cv_output_model.py](https://github.com/VillardX/GBDT_game_reviews/blob/main/lstm_vs_lgb/cv_output_model.py)。
+运行该文件可以分别训练lgb与lstm的十折交叉验证模型，最后在当前文件夹输出'lgbX.txt'与'lstmX.h5'字样的文件，即为每一折训练所得模型。
+4. 查看

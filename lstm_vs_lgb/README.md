@@ -11,3 +11,6 @@
 
 
 ## 步骤
+1. 解压缩[数据包1](https://github.com/VillardX/GBDT_game_reviews/blob/main/lstm_vs_lgb/cv_data.part1.rar)与[数据包2](https://github.com/VillardX/GBDT_game_reviews/blob/main/lstm_vs_lgb/cv_data.part2.rar)。得到本次实验所需要用到的原始数据cv_data.txt
+2. 建立自用工具[mytool]()包，包中含有tf_idf向量化，id2word词语编码、lgb模型初始化、lstm模型初始化等功能。
+3. 将解压所得数据文件与mytool包置于同一文件夹下，运行

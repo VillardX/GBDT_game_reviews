@@ -24,4 +24,6 @@
 置于同一文件夹下，运行
 [cv_output_model.py](https://github.com/VillardX/GBDT_game_reviews/blob/main/lstm_vs_lgb/cv_output_model.py)。
 运行该文件可以分别训练lgb与lstm的十折交叉验证模型，最后在当前文件夹输出'lgbX.txt'与'lstmX.h5'字样的文件，即为每一折训练所得模型。
-4. 查看
+4. 运行
+[cv_load_and_predict.ipynb](https://github.com/VillardX/GBDT_game_reviews/blob/main/lstm_vs_lgb/cv_load_and_predict.ipynb)
+并查看lgb模型与lstm模型分别在训练集和验证集上的表现。

@@ -31,5 +31,5 @@
 [lc_output_model.py](https://github.com/VillardX/GBDT_game_reviews/blob/main/lstm_vs_lgb/lc_output_model.py)。
 运行该文件课分别训练lgb与lstm的学习曲线模型，最后在当前文件夹输出'lc_lgbX.txt'与'lc_lstmX.h5'字样的文件，即为不同规模训练集下的模型。
 6. 运行
-[lc_load_and_predict.ipynb]https://github.com/VillardX/GBDT_game_reviews/blob/main/lstm_vs_lgb/lc_load_and_predict.ipynb
+[lc_load_and_predict.ipynb](https://github.com/VillardX/GBDT_game_reviews/blob/main/lstm_vs_lgb/lc_load_and_predict.ipynb)
 并查看lgb模型与lstm模型在不同训练集规模下的效果。
